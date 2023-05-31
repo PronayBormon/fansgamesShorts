@@ -168,7 +168,7 @@ text-align: right;
 /*==========================navbar css end here ================ */
 
 /* main css  */
-.reelcontainer{
+.video-container{
     height: 82vh;
     width: 100vw;
     margin-top: 4rem;
@@ -178,15 +178,15 @@ text-align: right;
     flex-direction: column;
     scroll-snap-type: y mandatory;
 }
-.reel{
+.video-wrapper{
     min-height: 82vh;
     min-width: 100vw;
     scroll-snap-align: start;
 }
-.reelcontainer::-webkit-scrollbar{
+.video-container::-webkit-scrollbar{
     display: none;
 }
-.reel video{
+.video-item{
     width: 100vw;
 }
 
