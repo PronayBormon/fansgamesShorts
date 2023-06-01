@@ -1,25 +1,25 @@
 body{
     background-color: #000;
-}
-*{
+  }
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.nav_footer {
+  }
+  .nav_footer {
     position: relative;
-}
-
-/* =====================nab bar css start here=================  */
-.nav_bar {
+  }
+  
+  /* =====================nab bar css start here=================  */
+  .nav_bar {
     background-attachment: fixed;
     top: 0px;
     left: 0px;
     position: fixed;
     width: 100%;
     z-index: 9999;
-}
-.modal-footer {
+  }
+  .modal-footer {
     display: block;
     position: sticky;
     bottom: 43px;
@@ -27,55 +27,55 @@ body{
     width: 100%;
     height: 85px;
     background: #fff;
-}
-.modal-title {
+  }
+  .modal-title {
     position: sticky;
     left: 0px;
     top: 15px;
     background: #fff;
-}
-.mode{
-
-display: flex;
-}
-.mode h1{
-
-font-size: 20px;
-
-font-family: 'Poppins', sans-serif;
-
-font-weight: 600;
-}
-.mode p{
-
-font-family: 'Poppins', sans-serif;
-
-font-size: 12px;
-}
-.mode input{
-
-width: 100%;
-
-font-size: 28px;
-
-text-align: right;
-}
-
-.nav_logo {
+  }
+  .mode{
+  
+  display: flex;
+  }
+  .mode h1{
+  
+  font-size: 20px;
+  
+  font-family: 'Poppins', sans-serif;
+  
+  font-weight: 600;
+  }
+  .mode p{
+  
+  font-family: 'Poppins', sans-serif;
+  
+  font-size: 12px;
+  }
+  .mode input{
+  
+  width: 100%;
+  
+  font-size: 28px;
+  
+  text-align: right;
+  }
+  
+  .nav_logo {
     font-size: 26px;
     font-family: Poppins, sans-serif;
     font-weight: 700;
     color: rgb(255, 255, 255);
     padding-left: 10px;
     color: #000;
-}
-
-.nav_bar nav {
+  }
+  
+  .nav_bar nav {
     background-color: #222032;
     background: #fff;
-}
-
-.nav_bar button {
+  }
+  
+  .nav_bar button {
     margin-left: 35px;
     padding-right: 10px;
     /* margin-right: 10px; */
@@ -84,28 +84,28 @@ text-align: right;
     border: none;
     color: #000;
     font-size: 25px;
-}
-.modal-title img{
+  }
+  .modal-title img{
     height: 45px;
     width: 45px;
     object-fit: cover;
     border-radius: 30px;
-}
-.modal-title h5{        
+  }
+  .modal-title h5{        
     font-family: Poppins, sans-serif;        
     text-align: left;        
     margin: 0;        
     margin-top: 15px;
-}
-.btn_close{
+  }
+  .btn_close{
     background: #22203252 !important;
     color: #fff !important;
     border-radius: 5px;
     text-align: right;
     height: 30px;
     font-size: 18px !important;
-}
-.users{
+  }
+  .users{
     background: #222032;
     color: #fff;
     padding: 9px 15px;
@@ -114,11 +114,11 @@ text-align: right;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-}
-.users h2{
+  }
+  .users h2{
     font-size: 14px;
-}
-.users h2 i{
+  }
+  .users h2 i{
     margin-left: 5px;
     height: 24px;
     width: 29px;
@@ -126,12 +126,12 @@ text-align: right;
     text-align: center;
     padding-top: 4px;
     border-radius: 7px;
-}
-.users span{        
+  }
+  .users span{        
     font-size: 24px;        
     font-weight: 600;
-}
-.users::before{
+  }
+  .users::before{
     position: absolute;
     content: "";
     height: 216%;
@@ -143,56 +143,58 @@ text-align: right;
     background-repeat: no-repeat;
     background-size: inherit;
     rotate: -39deg;
-}
-.nav-link{
+  }
+  .nav-link{
     margin-top: 10px;
     background: #f4f5f7;
     border-radius: 20px;
-}
-.nav-item{
+  }
+  .nav-item{
     color: #222032;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
-}
-.nav-item i{        
+  }
+  .nav-item i{        
     color: #5b586e;        
     font-size: 20px;        
     margin-right: 10px;
-}
-.nav_bar ul{
+  }
+  .nav_bar ul{
     padding: 5px;
-}
-
-/*==========================navbar css end here ================ */
-
-/* main css  */
-.video-container{
+  }
+  
+  /*==========================navbar css end here ================ */
+  
+    
+  .video-container {
     height: 82vh;
-    width: 100vw;
-    margin-top: 4rem;
+    min-width: 25vw;
+    margin-top: 4.2rem !important;
     display: flex;
     overflow: auto;
     gap: 2rem;
     flex-direction: column;
     scroll-snap-type: y mandatory;
-}
-.video-wrapper{
+    margin: auto;
+  }
+  
+  .video-wrapper {
     min-height: 82vh;
-    min-width: 100vw;
+    min-width: 25vw;
     scroll-snap-align: start;
-}
-.video-container::-webkit-scrollbar{
+  }
+  .video-container::-webkit-scrollbar{
     display: none;
-}
-.video-item{
-    width: 100vw;
+  }
+  .video-item {
+    width: 100%;
     height: 100%;
-}
-
-/* ======================= footer  css start here ======================= */
-footer {
+  }
+  
+  /* ======================= footer  css start here ======================= */
+  footer {
     position: fixed;
     bottom: 0px;
     left: 0px;
@@ -201,10 +203,10 @@ footer {
     background: #ffffffeb;
     color: rgb(0, 0, 0);
     z-index: 9999;
-}
-
-
-.cat .button a {
+  }
+  
+  
+  .cat .button a {
     border-radius: 20px;
     background-color: rgb(42, 40, 59);
     color: rgb(255, 255, 255);
@@ -213,23 +215,25 @@ footer {
     font-family: Poppins, sans-serif;
     font-size: 12px;
     font-weight: 400;
-}
-
-.cat .btn.active, .cat .btn:hover {
+  }
+  
+  .cat .btn.active, .cat .btn:hover {
     color: rgb(255, 255, 255);
     transition: all 0.4s ease-in-out 0s;
     background-image: linear-gradient(to right, rgb(255, 121, 142), rgb(85, 111, 255)) !important;
     border-color: rgba(0, 0, 0, 0) !important;
-}
-.link{
+  }
+  .link{
     width: 20%;
     text-align: center;
     font-size: 24px;
     color: #000;
     text-decoration: none;
     margin-top: 10px;
-}
-.link i{
+  }
+  .link i{
     color: #000;
-}
-/*============================ footer end  ===================== */
+  }
+  /*============================ footer end  ===================== */
+    
+  

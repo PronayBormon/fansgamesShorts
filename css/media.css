@@ -1,0 +1,12 @@
+@media(max-width: 668){
+    
+    .video-container {
+        min-width: 30vw;
+    }
+}
+@media(max-width: 525){
+    .video-container {
+        min-height: 90vh;
+        min-width: 100vw;
+    }
+}
