@@ -169,7 +169,7 @@ body{
   
     
   .video-container {
-    height: 82vh;
+    height: 85vh;
     min-width: 25vw;
     margin-top: 4.2rem !important;
     display: flex;
@@ -177,19 +177,19 @@ body{
     gap: 2rem;
     flex-direction: column;
     scroll-snap-type: y mandatory;
-    margin: auto;
+    /* margin: auto; */
   }
   
   .video-wrapper {
-    min-height: 82vh;
+    min-height: 85vh;
     min-width: 25vw;
     scroll-snap-align: start;
   }
-  .video-container::-webkit-scrollbar{
+  /* .video-container::-webkit-scrollbar{
     display: none;
-  }
+  } */
   .video-item {
-    width: 100%;
+    width: 100vw    ;
     height: 100%;
   }
   
